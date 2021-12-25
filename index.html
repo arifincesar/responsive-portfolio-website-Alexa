@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -610,7 +610,61 @@
       </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portofolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portofolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portofolio__content grid swiper-slide">
+              <img src="assets/img/portfolio1.jpg" alt="" class="portofolio__img" />
+              <div class="portofolio__data">
+                <h3 class="portofolio__title" Modern Website></h3>
+                <p class="portofolio__description">Website keren dan responsive semua ukuran, mobile frindly dan desktop friendly okeee</p>
+                <a href="#" class="button button--flex button--small portofolio__button"
+                  >Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portofolio__content grid swiper-slide">
+              <img src="assets/img/portfolio2.jpg" alt="" class="portofolio__img" />
+              <div class="portofolio__data">
+                <h3 class="portofolio__title" Frontend Website></h3>
+                <p class="portofolio__description">Website keren dan responsive semua ukuran</p>
+                <a href="#" class="button button--flex button--small portofolio__button"
+                  >Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portofolio__content grid swiper-slide">
+              <img src="assets/img/portfolio3.jpg" alt="" class="portofolio__img" />
+              <div class="portofolio__data">
+                <h3 class="portofolio__title" Backend Website></h3>
+                <p class="portofolio__description">Website keren dan responsive semua ukuran</p>
+                <a href="#" class="button button--flex button--small portofolio__button"
+                  >Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portofolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portofolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -628,7 +682,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
