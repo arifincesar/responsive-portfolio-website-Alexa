@@ -208,7 +208,7 @@ img {
   color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -906,6 +906,7 @@ project__title {
 
 /*==================== FOOTER ====================*/
 .footer {
+  height: 1rem;
   padding-top: 2rem;
 }
 
